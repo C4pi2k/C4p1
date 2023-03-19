@@ -1,8 +1,15 @@
 const express = require('express')
-require('dotenv').config();
+const bodyParser = require('body-parser');
+const dotenv = require('dotenv').config();
+const mongoose = require('mongoose');
+const mongoStore = require('connect-mongo');
 
 const app = express()
 const port = process.env.PORT
+
+mongoose.connect(process.env.MONGO_URL,
+    { useNewUrlParser: true, useUnifiedTopology: true }
+    ).catch(error => { console.log(`Error:${error}`)});
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
