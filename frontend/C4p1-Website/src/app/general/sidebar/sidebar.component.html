@@ -1,0 +1,12 @@
+<div class="sidebar-slider" [class.sidebar-slide-in]="sidebarService.sidebarShow">
+    <div
+        class="sidebar-close"
+        (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow"
+    >
+    ×
+    </div>
+	  <div class="sidebar-content">
+        <div class="sidebar-element">About me</div>
+        <div class="sidebar-element">Coding Playground</div>
+	  </div>
+</div>
