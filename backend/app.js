@@ -7,8 +7,7 @@ const mongoStore = require('connect-mongo');
 const app = express()
 const port = process.env.PORT
 
-mongoose.connect(process.env.MONGO_URL,
-    { useNewUrlParser: true, useUnifiedTopology: true }
+mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true }
     ).catch(error => { console.log(`Error:${error}`)});
 
 app.get('/', (req, res) => {
