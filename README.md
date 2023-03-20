@@ -2,7 +2,7 @@
 My attempt at creating a personal website.
 
 ## What is it?
-This whole thing is supposed to be my personal website. Yet at the same time, I want to gain some experience in creating a website, including the most crutial parts (frontend, backend, database).
+This whole thing is supposed to be my personal website. Yet at the same time, I want to gain some experience in creating a website, including the most crutial parts (frontend, backend, database). As soon as the website is more or less running, I would like to use it as a playground too (e.g. getting certain types of data from APIs and displaying them accordingly)
 
 ## What technologies are used?
 ### Frontend - Angular TS
