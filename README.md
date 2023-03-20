@@ -1,5 +1,5 @@
 # C4p1-Website README
-My attempt at creating a website.
+My attempt at creating a personal website.
 
 ## What is it?
 This whole thing is supposed to be my personal website. Yet at the same time, I want to gain some experience in creating a website, including the most crutial parts (frontend, backend, database).
