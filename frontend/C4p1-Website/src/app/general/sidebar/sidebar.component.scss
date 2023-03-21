@@ -5,7 +5,7 @@
     bottom: 0;
     background-color: #000000;
     transform: translateX(-100%);
-    transition: ease-in-out 300ms transform;
+    transition: ease-in-out 450ms transform;
     width: 300px;
 }
 
@@ -39,4 +39,10 @@
 
 .sidebar-element {
     margin-bottom: 20px;
+    transition: 200ms;
+}
+
+.sidebar-element:hover {
+    color: #afafaf;
+    transition: 300ms;
 }
