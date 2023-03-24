@@ -3,9 +3,9 @@
         ×
     </div>
 	<div class="sidebar-content">
-        <a routerLink='/' class="sidebar-element">Home</a> 
-        <a routerLink='/aboutme' class="sidebar-element">About me</a>
-        <a routerLink='/codingplayground' class="sidebar-element">Coding Playground</a>
-        <a routerLink='/articles' class="sidebar-element">Articles</a>
+        <a routerLink='/' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Home</a> 
+        <a routerLink='/aboutme' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">About me</a>
+        <a routerLink='/codingplayground' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Coding Playground</a>
+        <a routerLink='/articles' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Articles</a>
 	</div>
 </div>
