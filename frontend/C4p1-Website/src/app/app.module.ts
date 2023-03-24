@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './general/sidebar/sidebar.component';
 import { MainComponent } from './views/main/main.component';
 import { SidebarButtonComponent } from './general/sidebar-button/sidebar-button.component';
+import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
+import { ArticlesComponent } from './views/articles/articles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     MainComponent,
-    SidebarButtonComponent
+    SidebarButtonComponent,
+    PageNotFoundComponent,
+    ArticlesComponent
   ],
   imports: [
     BrowserModule,
