@@ -11,3 +11,23 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  .world {
+      font-size: 1.5rem;
+      display: inline-block;
+      text-shadow: 2px 2px 4px #000000;
+      animation: rainbow 10s infinite; 
+    }
+    
+    @keyframes rainbow{
+      0%{color: rgb(255, 0, 0);}  
+      11%{color: rgb(255, 157, 0);} 
+      22%{color: rgb(251, 255, 0);}
+      33%{color: rgb(34, 255, 0);}
+      44%{color: rgb(12, 149, 0);}
+      55%{color: rgb(0, 255, 183);}
+      66%{color: rgb(0, 255, 234);}
+      77%{color: rgb(0, 21, 255);}
+      88%{color: rgb(195, 0, 255);}
+      100%{color: rgb(255, 30, 195);}
+  }
