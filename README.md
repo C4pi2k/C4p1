@@ -13,3 +13,6 @@ For my backend I am using express js. Idk, I know some express js. It mostly ser
 
 ### Database - MongoDB
 For my database I am using a mongoDb cluster. Why you ask? Idk either.
+
+## What is planned?
+So far I am planning to create at least 4 pages. On the about me page, I wanna introduce visitors to get to know me real quick. On the coding playground I would like to implement any sort of code, that is not worth its own view (e.g. fancy html/css constructs that I found somewhere) and try out my own creations. On the articles page, I would like to write some articles about my own vies. That one might get locked up behind a login, since it might get personal. That way I do have an incentive to make my site actually "secure".
