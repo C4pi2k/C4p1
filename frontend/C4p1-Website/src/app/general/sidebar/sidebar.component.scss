@@ -25,7 +25,7 @@
     padding: 16px;
 }
 
-.sidebar-content {
+.sidebar-elements {
     display: flex;
     align-items: left;
     margin-left: 40px;
@@ -38,7 +38,8 @@
 }
 
 .sidebar-element {
-    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: 200ms;
     color: white;
     font-family: "Lato", sans-serif;
@@ -46,6 +47,13 @@
 }
 
 .sidebar-element:hover {
-    color: #afafaf;
     transition: 300ms;
+}
+
+.sidebar-elements:hover > .sidebar-element {
+    opacity: 0.5;
+}
+
+.sidebar-elements:hover > .sidebar-element:hover {
+    opacity: 1;
 }

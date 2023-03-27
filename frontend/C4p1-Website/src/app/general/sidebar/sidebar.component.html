@@ -2,10 +2,18 @@
     <div class="sidebar-close" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">
         ×
     </div>
-	<div class="sidebar-content">
-        <a routerLink='/' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Home</a> 
-        <a routerLink='/aboutme' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">About me</a>
-        <a routerLink='/codingplayground' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Coding Playground</a>
-        <a routerLink='/articles' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">Articles</a>
+	<div class="sidebar-elements">
+        <a routerLink='/' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">
+            Home
+        </a> 
+        <a routerLink='/aboutme' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">
+            About me
+        </a>
+        <a routerLink='/codingplayground' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">
+            Coding Playground
+        </a>
+        <a routerLink='/articles' class="sidebar-element" (click)="sidebarService.sidebarShow = !sidebarService.sidebarShow">
+            Articles
+        </a>
 	</div>
 </div>
