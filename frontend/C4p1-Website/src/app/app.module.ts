@@ -8,6 +8,7 @@ import { MainComponent } from './views/main/main.component';
 import { SidebarButtonComponent } from './general/sidebar-button/sidebar-button.component';
 import { PageNotFoundComponent } from './views/page-not-found/page-not-found.component';
 import { ArticlesComponent } from './views/articles/articles.component';
+import { FooterComponent } from './general/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,14 +17,16 @@ import { ArticlesComponent } from './views/articles/articles.component';
     MainComponent,
     SidebarButtonComponent,
     PageNotFoundComponent,
-    ArticlesComponent
+    ArticlesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   exports: [
-    SidebarComponent
+    SidebarComponent,
+    FooterComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
